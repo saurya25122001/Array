@@ -7,14 +7,14 @@ class Arr {
     Scanner sc = new Scanner(System.in);
      
     public void ArrInput(int Id []){
-        System.out.println("enter your ID ");
+        System.out.println("enter your Data");
      for(int i=0;i<Id.length;i++){
         Id[i]= sc.nextInt();
      }
     }
     public void ArrPrint(int Id []){
         for(int i=0;i<Id.length;i++){
-            System.out.println(" Id No "+ i+ " is "+Id[i]) ;
+            System.out.print(" "+Id[i]) ;
          }
     }
 }
